@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Witryna poświęcona mojemu hobby - FC Barcelona. Znajdziesz tu informacje o klubie, galerie i aktualności.">
+    <meta name="keywords" content="FC Barcelona, piłka nożna, klub sportowy, La Liga, futbol">
+    <meta name="author" content="Twoje Imię">
+    <title>FC Barcelona - Moje Hobby</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>FC Barcelona - Moje Hobby</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Strona Główna</a></li>
+                    <li><a href="#aktualnosci">Aktualności</a></li>
+                    <li><a href="#galeria">Galeria</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                    <li><a href="#o-mnie">O Mnie</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="main-content">
+            <h2>Witam na mojej stronie na temat FC Barcelony!</h2>
+            <p>Dowiedz się więcej o jednym z najbardziej utytułowanych klubów piłkarskich na świecie. Odkryj historię, najnowsze wiadomości i piękne momenty.</p>
+        </section>
+
+        <section id="aktualnosci">
+            <h2>Aktualności</h2>
+            <article>
+                <h3>FC Barcelona remisuje mecz!</h3>
+                <p>Słaby występ drużyny zakończony remisem 2:2 nad Realem Betisem. Bramki strzelili Lewandowski i Ferran Torres.</p>
+                <a href="#">Czytaj więcej</a>
+            </article>
+
+            <article>
+                <h3>Transfery - Co nowego w klubie?</h3>
+                <p>Dowiedz się, którzy zawodnicy dołączyli do Barcelony i kto opuścił drużynę w letnim okienku transferowym.</p>
+                <a href="#">Czytaj więcej</a>
+            </article>
+        </section>
+
+        <section id="galeria">
+            <h2>Galeria</h2>
+            <div class="gallery">
+                <img src="city_Barcelona.jpg" alt="Miasto Barcelony">
+                <img src="camp_nou.jpg" alt="Stadion Camp Nou">
+                <img src="team_photo.jpg" alt="Drużyna FC Barcelona">
+                <img src="barcelona_ucl.jpg" alt="Barcelona UCL">
+                <img src="messi.jpg" alt="Messi">
+                <img src="match.jpg" alt="Mecz FC Barcelony">
+                
+            </div>
+        </section>
+
+        <section id="kontakt">
+            <h2>Kontakt</h2>
+            <form action="contact.php" method="post">
+                <label for="name">Imię:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Wiadomość:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Wyślij</button>
+            </form>
+        </section>
+
+        <section id="o-mnie">
+            <h2>O Mnie</h2>
+            <p>Jestem pasjonatem piłki nożnej i wiernym kibicem FC Barcelony. Od lat śledzę mecze, aktualności i wspieram klub na dobre i na złe.</p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p> 2024 FC Barcelona - Moje Hobby.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+     
+</body>
+</html>
